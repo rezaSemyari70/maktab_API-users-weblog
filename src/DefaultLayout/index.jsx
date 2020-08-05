@@ -5,13 +5,16 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import {Container} from 'reactstrap';
 import ListUsers from '../Views/ListUsers/ListUsers';
+import SingleUser from '../Views/SingleUser/SingleUser';
 function index() {
     return (
         <Router>
             <Header/>
             <Container fluid>
                 <Switch>
-                    <Route path="/users/:id"></Route>
+                    <Route path="/users/:id">
+                        <SingleUser/>
+                    </Route>
                     <Route path="/posts/:id"></Route>
                     <Route exact path="/posts"></Route>
                     <Route exact path="/users">

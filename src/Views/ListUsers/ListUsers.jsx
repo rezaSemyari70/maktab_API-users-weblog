@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios';
 import {Table, Card, CardTitle} from 'reactstrap';
-
+import {Link} from 'react-router-dom';
 import './ListUsers.css';
 
 
@@ -17,7 +17,7 @@ function ListUsers() {
             .get('https://jsonplaceholder.typicode.com/users')
             .then(res => {
                 setUsers(res.data);
-                console.log(res.data)
+                // console.log(res.data)
             })
             .catch(err => console.warn(err))
     }
@@ -41,13 +41,15 @@ function ListUsers() {
                 <tbody>
                     {users.map(user => 
 
-                        <tr key={user.id} className="text-left">
+                        
+                            <tr key={user.id} className="text-left">
                             <td >
-                                {user.name}
+                            <Link to={`/users/${user.id}`}>{user.name}</Link>
                             </td>
                             <td>{user.username}</td>
                             <td><a href={`http://${user.website}`} target="blank">{user.website}</a></td>
                         </tr>
+                       
                     )}
                 </tbody>
             </Table>
