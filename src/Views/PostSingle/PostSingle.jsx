@@ -56,7 +56,7 @@ function PostSingle() {
                         <CardHeader><strong>Comments</strong></CardHeader>
             </Card>
                 {comments.map(comment => 
-                    <Card className="my-2" outline color="info">
+                    <Card key={comment.id} className="my-2" outline color="info">
                         <Row>
                             <Col>
                                 <div className="m-3">

@@ -1,0 +1,10 @@
+@media (max-width: 575.98px) { 
+    .smallSpinner{
+        width: 0.8rem !important;
+        height: 0.8rem !important;
+    }
+    .largSpinner{
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+    }
+ } 

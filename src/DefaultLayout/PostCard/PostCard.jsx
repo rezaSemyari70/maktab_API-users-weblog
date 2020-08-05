@@ -1,12 +1,10 @@
 import React from 'react'
 import {
     Card,
-    CardFooter,
     CardBody,
     CardTitle,
     CardText,
     Button,
-    Badge
 } from 'reactstrap';
 import {Link} from 'react-router-dom';
 
@@ -15,7 +13,7 @@ import {Link} from 'react-router-dom';
 function PostCard({user , post}) {
     return (
         <div>
-            <Card className="my-2">
+            <Card className="my-2" outline color="primary">
                     {/* <CardHeader>{user ? user.username : post.id}</CardHeader> */}
                 <CardBody>
                 <CardTitle><i className="fas fa-circle"></i><strong>{post.title}</strong></CardTitle>

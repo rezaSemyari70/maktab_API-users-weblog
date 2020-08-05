@@ -8,6 +8,7 @@ import ListUsers from '../Views/ListUsers/ListUsers';
 import SingleUser from '../Views/SingleUser/SingleUser';
 import PostArchive from '../Views/PostArchive/PostArchive';
 import PostSingle from '../Views/PostSingle/PostSingle';
+import Todos from '../Views/Todos/Todos';
 
 
 
@@ -29,7 +30,9 @@ function index() {
                     <Route exact path="/users">
                         <ListUsers/>
                     </Route>
-                    <Route exact path="/todos"></Route>
+                    <Route exact path="/todos">
+                        <Todos/>
+                    </Route>
                     <Route exact path="/"></Route>
                 </Switch>
             </Container>
