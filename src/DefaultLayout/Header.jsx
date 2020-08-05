@@ -10,12 +10,18 @@ import {
     Container
 } from 'reactstrap';
 import {Link} from 'react-router-dom';
+import { Tooltip } from 'reactstrap';
+
 
 const Header = (props) => {
     const [isOpen,
         setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
+
+    const [tooltipOpen, setTooltipOpen] = useState(false);
+
+    const toolTipToggle = () => setTooltipOpen(!tooltipOpen);
 
     return (
         <Container fluid>
@@ -25,13 +31,14 @@ const Header = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>
-                            <Link className="nav-link"  to="/users">Users</Link>
+                        <Link className="nav-link" id="TooltipExample"  to="/users">Users</Link>
+                            <Tooltip placement="bottom" isOpen={tooltipOpen} target="TooltipExample" toggle={toolTipToggle}>List of user in jsonblog</Tooltip>
                         </NavItem>
                         <NavItem>
-                            <Link  className="nav-link" to="/users">Posts</Link>
+                            <Link  className="nav-link" to="/posts">Posts</Link>
                         </NavItem>
                         <NavItem>
-                            <Link className="nav-link"  to="/users">Todos</Link>
+                            <Link className="nav-link"  to="/todos">Todos</Link>
                         </NavItem>
                     </Nav>
                     <NavbarText>JsonBlog</NavbarText>

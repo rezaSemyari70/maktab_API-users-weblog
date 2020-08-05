@@ -1,0 +1,28 @@
+@media (max-width: 575.98px) {
+    td{
+        font-size: 10px !important;
+    }
+}
+
+table{
+    cursor: default;
+}
+
+td:hover{
+    font-weight: bold;
+}
+
+
+td , th{
+    padding-left: 15px !important;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: coral;
+    transform: scale(1.1);
+}
