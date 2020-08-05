@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fcb5e5d84ce20fbd8024deaa5079dc4",
+    "revision": "87163fad01a1fb732c5ce762dfbf71ff",
     "url": "/maktab_API-users-weblog/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/maktab_API-users-weblog/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "279baeb414429cf11a27",
-    "url": "/maktab_API-users-weblog/static/css/main.c71c28b5.chunk.css"
+    "revision": "5d54292e52f121792b4d",
+    "url": "/maktab_API-users-weblog/static/css/main.09d73fb6.chunk.css"
   },
   {
     "revision": "e1f66dd6f03f36ac6599",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/maktab_API-users-weblog/static/js/2.d148b79b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "279baeb414429cf11a27",
+    "revision": "5d54292e52f121792b4d",
     "url": "/maktab_API-users-weblog/static/js/main.cb32e290.chunk.js"
   },
   {

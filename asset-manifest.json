@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maktab_API-users-weblog/static/css/main.c71c28b5.chunk.css",
+    "main.css": "/maktab_API-users-weblog/static/css/main.09d73fb6.chunk.css",
     "main.js": "/maktab_API-users-weblog/static/js/main.cb32e290.chunk.js",
     "main.js.map": "/maktab_API-users-weblog/static/js/main.cb32e290.chunk.js.map",
     "runtime-main.js": "/maktab_API-users-weblog/static/js/runtime-main.dd7cee21.js",
@@ -9,17 +9,17 @@
     "static/js/2.d148b79b.chunk.js": "/maktab_API-users-weblog/static/js/2.d148b79b.chunk.js",
     "static/js/2.d148b79b.chunk.js.map": "/maktab_API-users-weblog/static/js/2.d148b79b.chunk.js.map",
     "index.html": "/maktab_API-users-weblog/index.html",
-    "precache-manifest.5b9118979bbe8af1569d254d3c00abad.js": "/maktab_API-users-weblog/precache-manifest.5b9118979bbe8af1569d254d3c00abad.js",
+    "precache-manifest.2580edf7646604c84b48944ba921b845.js": "/maktab_API-users-weblog/precache-manifest.2580edf7646604c84b48944ba921b845.js",
     "service-worker.js": "/maktab_API-users-weblog/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/maktab_API-users-weblog/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.c71c28b5.chunk.css.map": "/maktab_API-users-weblog/static/css/main.c71c28b5.chunk.css.map",
+    "static/css/main.09d73fb6.chunk.css.map": "/maktab_API-users-weblog/static/css/main.09d73fb6.chunk.css.map",
     "static/js/2.d148b79b.chunk.js.LICENSE.txt": "/maktab_API-users-weblog/static/js/2.d148b79b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dd7cee21.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.d148b79b.chunk.js",
-    "static/css/main.c71c28b5.chunk.css",
+    "static/css/main.09d73fb6.chunk.css",
     "static/js/main.cb32e290.chunk.js"
   ]
 }
