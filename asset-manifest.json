@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/maktab_API-users-weblog/static/css/main.fb0eb69c.chunk.css",
-    "main.js": "/maktab_API-users-weblog/static/js/main.897f34bd.chunk.js",
-    "main.js.map": "/maktab_API-users-weblog/static/js/main.897f34bd.chunk.js.map",
+    "main.css": "/maktab_API-users-weblog/static/css/main.c71c28b5.chunk.css",
+    "main.js": "/maktab_API-users-weblog/static/js/main.cb32e290.chunk.js",
+    "main.js.map": "/maktab_API-users-weblog/static/js/main.cb32e290.chunk.js.map",
     "runtime-main.js": "/maktab_API-users-weblog/static/js/runtime-main.dd7cee21.js",
     "runtime-main.js.map": "/maktab_API-users-weblog/static/js/runtime-main.dd7cee21.js.map",
     "static/css/2.af3c1da9.chunk.css": "/maktab_API-users-weblog/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b4a5335a.chunk.js": "/maktab_API-users-weblog/static/js/2.b4a5335a.chunk.js",
-    "static/js/2.b4a5335a.chunk.js.map": "/maktab_API-users-weblog/static/js/2.b4a5335a.chunk.js.map",
+    "static/js/2.d148b79b.chunk.js": "/maktab_API-users-weblog/static/js/2.d148b79b.chunk.js",
+    "static/js/2.d148b79b.chunk.js.map": "/maktab_API-users-weblog/static/js/2.d148b79b.chunk.js.map",
     "index.html": "/maktab_API-users-weblog/index.html",
-    "precache-manifest.350e455f145e62be93b4ac59f608acc5.js": "/maktab_API-users-weblog/precache-manifest.350e455f145e62be93b4ac59f608acc5.js",
+    "precache-manifest.5b9118979bbe8af1569d254d3c00abad.js": "/maktab_API-users-weblog/precache-manifest.5b9118979bbe8af1569d254d3c00abad.js",
     "service-worker.js": "/maktab_API-users-weblog/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/maktab_API-users-weblog/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.fb0eb69c.chunk.css.map": "/maktab_API-users-weblog/static/css/main.fb0eb69c.chunk.css.map",
-    "static/js/2.b4a5335a.chunk.js.LICENSE.txt": "/maktab_API-users-weblog/static/js/2.b4a5335a.chunk.js.LICENSE.txt"
+    "static/css/main.c71c28b5.chunk.css.map": "/maktab_API-users-weblog/static/css/main.c71c28b5.chunk.css.map",
+    "static/js/2.d148b79b.chunk.js.LICENSE.txt": "/maktab_API-users-weblog/static/js/2.d148b79b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dd7cee21.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b4a5335a.chunk.js",
-    "static/css/main.fb0eb69c.chunk.css",
-    "static/js/main.897f34bd.chunk.js"
+    "static/js/2.d148b79b.chunk.js",
+    "static/css/main.c71c28b5.chunk.css",
+    "static/js/main.cb32e290.chunk.js"
   ]
 }
